@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src ="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>transform</title>
+</head>
+<body>
+    
+    <div class="header"> 
+        <div class="myslides fade">
+            <div class="tex"><h1><span style="font-size:150px;">TRANSFORM</span></h1><p>YOUR BUSINESS INTO A SUCCESSFUL ONE</p></div>
+            <img src ="1.jpg" height="150" width="100%">
+            <div class="head_btn"><a href="#" class="btn"> WITH OUR HELP »</a></div>
+        </div>
+        <div class="myslides fade">
+            <div class="tex"><h1><span style="font-size: 200px;">VIVAMUS</span></h1><p>SED SEM TRISTIQUE NON ELEIFEND</p></div>
+            <img src ="2.jpg" height="150" width="100%"> 
+            <div class="head_btn"><a href="#" class="btn"> Read More »</a></div>
+        </div>
+        <div class="myslides fade">
+            <div class="tex"><h1><span style="font-size: 200px;">MAUVIS</span></h1><p>SED SEM TRISTIQUE NON ELEIFEND</p></div>
+            <img src ="3.jpg" height="150" width="100%">
+            <div class="head_btn"><a href="#" class="btn"> Read More »</a></div>
+        </div>
+        <div style="text-align:right;" class="dots">
+            <span class="dot" id="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" id="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" id="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <div>
+            <div class="container">
+                <div class ="transform">
+                    <div class="coli">
+                        <div class="head"><h1 style="color:white; text-align: center;"><i class="fas fa-sync-alt icons"></i> TRANSFORM </h1></div>
+                    </div>
+                    <div class="colii">
+                        <div class ="dropbtn" onclick=" myFunction()" style="margin-bottom: 22px;"><span>MENU</span> <span style="float: right;"><i class="fas fa-caret-down"></i></span></div>
+                            <nav id="dropdown-content">
+                                <ul>
+                                    <li class="nav-links"><a href="#">HOME</a></li>
+                                    <li class="nav-link"><a href="#"><span class="stelf"><i class="fas fa-caret-down"></i></span> PAGES</a>
+                                        <!-- <div class="dropdown"> -->
+                                            <ul class="dropy">
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >About Us</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Team</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Team -Single</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Contacts</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" > Services</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Clients</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >FAQ</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Archives</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >404</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Left</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Right</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Left and Right</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Html SideMap</span></a></li>
+                                            </ul>
+                                        <!-- </div> -->
+                                    <li>
+                                    <li class="nav-link"><a href="#"><span class="stelf"><i class="fas fa-caret-down"></i></span> ELEMENTS</a>
+                                        <!-- <div class="dropdown"> -->
+                                            <ul class="dropy">
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Buttons</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Alerts Messages</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Font icon</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Social Icon</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Call To Icon</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Columns</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Columns - No Gutter</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Lists</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Accordions, Google & Tabs</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Pricing Tables</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Misc Typography</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Slider + Lightbox</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Media</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Table</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Testimony</span></a></li>
+                                            </ul>
+                                    </li>
+                                    <li class="nav-link"><a href="#"><span class="stelf"><i class="fas fa-caret-down"></i></span> BLOGS </a>
+                                            <ul>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="stelf"><i class="fas fa-caret-down"></i></span><span class="color" >Blog Overview</span> </a>
+                                                        <ul class="dropy second">
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Full Width</span></a></li>
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Bar Left</span></a></li>
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Bar Right</span></a></li>
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >2 Col Grid</span></a></li>
+                                                        </ul>
+                                                </li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="stelf"><i class="fas fa-caret-down"></i></span><span class="color" >Blog Post</span> </a>
+                                                        <ul class="dropy second">
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Full Width</span></a></li>
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Bar Left</span></a></li>
+                                                            <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Side Bar Right</span></a></li>
+                                                        </ul>
+                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="nav-link"><a href="#"><span class="stelf"><i class="fas fa-caret-down"></i></span> GALLERY</a>
+                                            <ul class="dropy">
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >Full Width</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >2 Col Grid</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >3 Col Grid</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >4 Col Grid</span></a></li>
+                                                <li class="dropdownlink"><a href="#"><span class="dash">--</span><span class="color" >5 Col Grid</a></li>
+                                            </ul>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </nav>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </br></br>
+    </div> 
+    <div class="container">
+       <div class="main">
+            <div class="col">
+                <div class="first"><img src="lp.jpg" alt="laptop"></div>                 
+                <h1>LOREM IPSUM DOLOR SIT AMET, CONSECT ETUR ADIPISCING</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi. Quisque porta scelerisque est, sit amet interdum nisi semper in.</p>
+                <a href="#" class="btn"> Read More »</a></br>
+           </div>
+            <div class="col">
+                <h1>THE TOP 3 REASONS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non <a href="#" class="sag">feugiat odio dui in dui.</a> Aenean ut facilisis dui.</p>
+                <div class="num">
+                    <p style="font-size: 60px;">1.</p><p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat.</p>
+                </div>
+                <div class="num">
+                    <p style="font-size: 60px;">2.</p><p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat.</p>
+                </div>
+                
+                <div class=" nub">
+                    <p style="font-size: 60px;">3.</p><p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris non feugiat.</p>
+                </div>
+            </div>
+            <div class="col">
+                <h1>FROM THE BLOG</h1>
+                <img src="man.jpg" alt="man">
+                <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus…</p><br>
+                <a href="#" class="btn"> Read More »</a><br><br><br>
+                <div><img src="ple.jpg" alt="ple"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus…</p><br>
+                <a href="#" class="btn"> Read More »</a><br><br><br>
+                <div><img src="han.jpg" alt="hand"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus…</p><br>
+                <a href="#" class="btn"> Read More »</a><br><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="color">
+        <div class="aside">
+            <div class="colli"><h2><i class="fas fa-random ups"></i></h2></div> 
+            <div class="middle">
+                <h1>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT VIVAMUS.</h1>
+                <p><span>&#10140</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id pharetra.</p>
+                <p><span>&#10140</span> Lorem ipsum dolor sit amet, consectetur.</p>
+                <p><span>&#10140</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p><span>&#10140</span> Lorem ipsum dolor sit amet, consectetur vivamus.</p>
+                <div class="lorem_btn"><a href="#" class="bet"> Lorem Ipsum</a>  <a href="#" class="bin"> Dolor Sit Amet</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">  
+        <div class="section">
+            <div class="col">
+                <h1 style="text-align: center;">LOREM IPSUM DOLOR SIT AMET</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                <div class="diff">
+                   <div><img class= "sag" src="jane.png" alt="john"></div>
+                   <div><h4><a href="#" class= "sag">JANE DOE</a></h4><br>Job Title Here
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                   <p><i class="fas fa-phone-alt"></i> 1001000 1101001</p></div>
+                </div>
+                <div class="diff">
+                  <div><img class= "sag" src="john.png" alt="john"></div>
+                  <div><h4><a href="#"class= "sag">JOHN DOE</a></h4><br>Job Title Here
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                  <p><i class="fas fa-phone-alt"></i> 1001000 1101001</p><br></div>
+                </div>
+            </div>
+            <div class="col">
+                <h1 style="text-align: center;">LOREM IPSUM DOLOR SIT AMET</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
+                <div class="wrapper">
+                    <div class="all">
+                        
+                        <div class="containe">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators ">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                        
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi.
+
+                                    Quisque porta scelerisque est, sit amet interdum nisi semper in. Etiam eu hendrerit nibh. Aenean porttitor molestie accumsan.
+                                    
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi. Quisque porta scelerisque est, sit ame.
+                                </div>
+                        
+                                <div class="item">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi.
+
+                                    Quisque porta scelerisque est, sit amet interdum nisi semper in. Etiam eu hendrerit nibh. Aenean porttitor molestie accumsan. 
+                                </div>
+                            
+                                <div class="item">
+                                    Phasellus felis metus, ornare nec consectetur a, placerat eu felis. Phasellus quis enim orci. Etiam vel dui nisi, sed semper urna. Ut mattis dignissim lacus, vitae pretium neque volutpat nec.
+                                </div>
+                            </div>
+                        
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <br>
+                <div class="wrapp"><span style="margin-left:22px; font-weight: bold;">Name Goes Here</span><br><span style="margin-left: 22px;font-size: small;">Company Name</span></div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="ass">
+        <h1><a href="#"class="up"><i class="fas fa-arrow-circle-up"></i></a></h1><br>
+        <div class="in"></div>
+        </div>
+        <div class="right">
+            <div class="col">
+                <h2 style="border-bottom: 1px solid rgb(200, 200, 200); margin-top: 8;">Lorem Ipsum Dolor</h2>
+                <div class="lorem_line"></div>
+            
+                <p style=" border-bottom: 1px solid rgb(200, 200, 200); margin-bottom: 30px;"><a href ="#" class ="sag"> Home Page</a></p>
+            
+                <p style=" border-bottom: 1px solid rgb(200, 200, 200); margin-bottom: 30px;"><a href ="#" class ="sag"> Our Services</a></p>
+                
+                <p style=" border-bottom: 1px solid rgb(200, 200, 200); margin-bottom: 30px;"><a href ="#" class ="sag"> Meet The Team</a></p>
+            
+                <p style=" border-bottom: 1px solid rgb(200, 200, 200); margin-bottom: 30px;"><a href ="#" class ="sag"> Blog</a></p>
+                
+                <p style=" border-bottom: 1px solid rgb(200, 200, 200); margin-bottom: 30px;"><a href ="#" class ="sag"> Contact Us</a></p>
+            </div>
+            <div class="col">  
+                <h2 style="border-bottom: 1px solid rgb(200, 200, 200); margin-top: 8;">Lorem Ipsum Dolor</h2>
+                <div class="lorem_line"></div>
+                <P>To sign-up for our newsletter simply enter your email below</P>
+                <input type="Email"  placeholder="Email Here"><br><br><br>
+                <div><a href="#"class="btn">SUBMIT</a></div>
+                <p>Follow us in the social networks</p> <br>     
+                <span class="icons">
+                    <a href="#"><i class="fab fa-facebook fb"></i></a>
+                    <a href="#"><i class="fab fa-pinterest pin"></i></a>
+                    <a href="#"><i class='fab fa-twitter twi'></i></a>
+                    <a href="#"><i class="fab fa-dribbble dri"></i></a>
+                   <a href="#"><i class='fab fa-linkedin-in li'></i></a>
+                   <a href="#"><i class='fab fa-google goo'></i></a>
+                
+                </span>
+            </div> 
+            <div class="col">    
+                <h2 style="border-bottom: 1px solid rgb(200, 200, 200); margin-top: 8;">Lorem Ipsum Dolor</h2>
+                <div class="lorem_line"></div>
+            
+                <p><span>&#10140</span><a href ="#" class ="sag"> Quisque porta scelerisque</a></p><br>
+                <p><span>&#10140</span><a href ="#" class ="sag"> Sit amet interdum nisi semper</a></p><br>
+                <p><span>&#10140</span><a href ="#" class ="sag"> Etiam eu hendrerit nibh</a></p><br>
+                <p><span>&#10140</span><a href ="#" class ="sag"> aenean Porttitor molestie</a></p><br>
+                <p><span>&#10140</span><a href ="#" class ="sag"> Consecteur adispiscing elit</a></p><br>
+            </div>
+            <div class="col">
+                <h2 style="border-bottom: 1px solid rgb(200, 200, 200); margin-top: 8;">Lorem Ipsum Dolor</h2>
+                <div class="lorem_line"></div>
+                
+                <p>Aenean semper elementum tellus, ut placerat leo. Quisque vehicula, urna sit amet pulvinar dapibus, dui leo.</p>
+                <p>Street Name & Number</p>
+                <p>Town</p>
+                <p>Postcode/Zip</p>
+                <p><i class="far fa-clock"></i> Mon. - Fri. 9:00am - 7:00pm</p>
+                <p><i class="fas fa-phone-alt"></i> 1001000 1101001</p>
+            </div>
+        </div>
+        <div class="footer"> 
+            <div class="lines">
+            <h1><a href="#"class="btns"><i class="fas fa-sync-alt icons"></i> TRANSFORM</a></h1><br>
+            </div>
+            <div class="in"></div>
+            <p>Copyright © 2009 - 2020. All Rights Reserved|<a href="#"class="sag">Link 1</a>/<a href="#"class="sag">Link 2</a>/<a href="#"class="sag">Link 3</a>/<a href="#"class="sag">Link 4</a>/<a href="#"class="sag">Link 5</a></p>
+        </div>
+    </div>
+</body>
+<script src="tran.js"></script>
+</html>
