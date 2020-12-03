@@ -1,4 +1,4 @@
 # challengeT
 PROJECT
 
-read me @
+read me @https://tosinyusuf.github.io/challengeT/.
