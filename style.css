@@ -514,7 +514,7 @@ a {
         display: table;
     } 
     nav ul {
-        margin-right: 40px;
+        /* margin-right: 40px; */
         position: relative;
         
     }
@@ -602,7 +602,7 @@ a {
         position: absolute;
         border: none;
         font-size: 14px;
-    }
+    }  
     .nav-links > a {
         border-top:  5px solid #56aed4;
         position: relative;
