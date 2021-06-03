@@ -78,7 +78,6 @@ img {
 }
 .head_btn {
     display: none;
-    margin-top: 10px;
 }
 .fade {
     animation-name: fade;
