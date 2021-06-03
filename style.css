@@ -78,6 +78,7 @@ img {
 }
 .head_btn {
     display: none;
+    margin-top: 10px;
 }
 .fade {
     animation-name: fade;
@@ -453,8 +454,13 @@ a {
     z-index: -1px;
     top: -12px;
 }
-
- @media (min-width:890px) {
+.tex h1 {
+    margin-top: -80px;
+}
+.pip {
+    margin-top: -40px;
+}
+ @media (min-width:1000px) {
       .change_img {
          height: 400;
      } 
@@ -509,7 +515,7 @@ a {
         display: table;
     } 
     nav ul {
-        margin-right: 100px;
+        margin-right: 40px;
         position: relative;
         
     }
@@ -636,7 +642,7 @@ a {
         top: 133px;
         transform: translate(-50%, -50%);
         display: inline-block;
-        color: white ;
+        color: #fff;
         position: absolute;
         transition: 0.4s ease;
         opacity: 0.5;
@@ -695,11 +701,6 @@ a {
         gap: 20px;
     }
 
- }
- @media (min-width:940px){
-    .dots {
-        top: 72%;
-    }
  }
  @media (min-width:1100px){
     .dots {
